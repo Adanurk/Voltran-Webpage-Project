@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: tahoma;
+    text-decoration: none;
+}
+header {
+    background-color: red;
+    font: tahoma 32px;
+    padding: 20px 0px;
+    text-align: center;
+    width: 100%;
+}
+
+h1{
+    border: 8px solid white;
+    color: white;
+    padding: 6px 12px;
+    display: inline-block;
+    border-radius: 36px;
+}
+
+.banner img{
+    max-width: 100%;
+}
+
+nav {
+    background-color: #f4f4f4;
+    padding: 20px;
+    display: block;
+}
+
+ul {
+    display: block;
+    text-align: center;
+    list-style-type: none;
+}
+
+li {
+    margin: 12px 0px;
+    width: 100%;
+    display: block;
+}
