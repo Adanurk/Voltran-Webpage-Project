@@ -1,15 +1,20 @@
-* {
+body, ul, li, h1, h2, a {
     margin: 0;
     padding: 0;
     font-family: tahoma;
     text-decoration: none;
 }
+
+p {
+    font-size: 18px;
+}
+
 header {
     background-color: red;
-    font: tahoma 32px;
     padding: 20px 0px;
     text-align: center;
     width: 100%;
+    position: fixed;
 }
 
 h1{
@@ -39,5 +44,13 @@ ul {
 li {
     margin: 12px 0px;
     width: 100%;
-    display: block;
+    display: inline-block;
+}
+
+nav li {
+    display: inline-block;
+}
+
+.join {
+    color: red;
 }
